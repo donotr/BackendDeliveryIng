@@ -12,7 +12,7 @@ User.findById = (id, result) => {
         name,
         lastname,
         image,
-        password
+        password        
     FROM
         users
     WHERE
